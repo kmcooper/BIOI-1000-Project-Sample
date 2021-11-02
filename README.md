@@ -2,7 +2,7 @@
 **Purpose**: This is a sample GitHub repo for BIOI 1000 students in project-implementing versions of the course to use as a general guide. Refer to the assignment rubric and description for actual project requirements; this sample repository does not necessarily align with assignment expectations.
 
 ## Configuration instructions and dependencies
-The script used for this project requires [Python 3.7.12](https://www.python.org/downloads/) or higher to run as well as the [pandas](https://pandas.pydata.org) Python library. This code was developed and tested on a MacOSX with Python 3.7.12 installed using pandas version 1.3.4.
+The script used for this project requires [Python 3.7.12](https://www.python.org/downloads/) or higher to run as well as the [pandas](https://pandas.pydata.org) Python library. This code was developed and tested on a MacOSX with Python 3.7.12 installed using pandas version 1.3.4. (*Note: This code does not actually use pandas, I am just giving an example of how to describe dependencies*)
 
 ## Installation instructions
 Simple "install", just download the script to your machine and run it from your preferred folder. 
