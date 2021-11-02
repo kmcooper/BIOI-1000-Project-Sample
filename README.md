@@ -9,11 +9,11 @@ Simple "install", just download the script to your machine and run it from your 
 
 ## Operating instructions
 Navigate to the folder that contains the script and run the following command, where DNA represents your input and protein represents your output:  
-`python3 nucleotide_to_protein.py -i DNA.fa -o protein.fa`  
+`python3 nucleotide_to_protein.py -i nuc.fa -o protein.fa`  
 
 ## Sample Input/Output
-You can run the file with the following input and if working correctly should generate the output in prot.fa exactly. You can check if there are differences using the `diff` or `vimdiff` commands.
-`python3 nucleotide_to_protein.py -i DNA.fa -o protein.fa`  
+You can run the file with the following input and if working correctly should generate the output in prot.fa exactly. You can check if there are differences using the `diff` or `vimdiff` commands.  
+`python3 nucleotide_to_protein.py -i nuc.fa -o protein.fa`  
 
 ## Files in this directory
 - nucleotide_to_protein.py
