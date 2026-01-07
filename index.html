@@ -1,12 +1,167 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>E-PACERR Modules</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background: #ffffff;
+      color: #111;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      max-width: 70ch;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+
+    .module {
+      border: 2px solid #e5e7eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      background: #fafafa;
+    }
+
+    .module h2 {
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    .module a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #0645ad;
+    }
+
+    .module a:focus,
+    .module a:hover {
+      text-decoration: underline;
+      outline: 3px solid transparent;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding: 1rem;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.9rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first paragraph on my new website.</p>
+  <header>
+    <h1>E-PACERR Educational Modules</h1>
+    <p>
+      A free, open, self-paced curriculum supporting excellence, reproducibility,
+      and professionalism in bioinformatics research.
+    </p>
+  </header>
+
+  <main>
+    <section aria-labelledby="modules-heading">
+      <h2 id="modules-heading">Available Modules</h2>
+
+      <div class="module-grid">
+
+        <article class="module">
+          <h2>1. Reproducibility in Bioinformatics</h2>
+          <a href="modules/module-1/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>2. Replicability in Bioinformatics</h2>
+          <a href="modules/module-2/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>3. Statistical Rigor in Bioinformatics</h2>
+          <a href="modules/module-3/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>4. Reliability, Generalizability, & Robustness in Bioinformatics</h2>
+          <a href="modules/module-4/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>5. Case Studies for Responsible Research in Bioinformatics</h2>
+          <a href="modules/module-5/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>6. Databases and Reproducible Data Mining in Bioinformatics</h2>
+          <a href="modules/module-6/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>7. Best Practices for Data Sharing in Bioinformatics</h2>
+          <a href="modules/module-7/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>8. Best Practices for Code Sharing in Bioinformatics</h2>
+          <a href="modules/module-8/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>9. Standards for Excellence in Bioinformatics Education & Training</h2>
+          <a href="modules/module-9/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>10. Advocacy in Bioinformatics Research and Education</h2>
+          <a href="modules/module-10/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>11. Technical Writing Skills for Responsible Bioinformatics Communication</h2>
+          <a href="modules/module-11/">View module</a>
+        </article>
+
+        <article class="module">
+          <h2>12. Professionalism in Bioinformatics</h2>
+          <a href="modules/module-12/">View module</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      Accessibility: This site is designed to conform to WCAG 2.1 Level AA.
+      For accessibility issues, contact the project team.
+    </p>
+  </footer>
 </body>
 </html>
